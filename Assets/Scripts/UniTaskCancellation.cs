@@ -50,6 +50,7 @@ public class UniTaskCancellation : MonoBehaviour
 
     private async UniTaskVoid TaskCancelWait()
     {
+        // UniTask.Delay에 cancellationToken 매개변수 포함 시 해당 토큰에서 취소 리퀘스트가 넘어온다면 해당 태스크를 종료(break)한다
         await UniTask.Delay(5000, cancellationToken: tokenSource.Token);
         await UniTask.Delay(5000, cancellationToken: this.GetCancellationTokenOnDestroy());
         Debug.Log("TaskOver, 5 sec");
