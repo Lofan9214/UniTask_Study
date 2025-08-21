@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 6aeab5fdbf2e63846963c323af5454a7
+  m_SerializeEntries:
+  - m_GUID: ef0ab984d027c7842b84bd6bc58db6fd
+    m_Address: Assets/Addressables/Square.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 06b1fb63c537cd14a8d23420dd54b822, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 37a5fead57f7ca44186654fd0a5d55c5, type: 2}
+    - {fileID: 11400000, guid: e2aaa3516a3ef144b9b0e0c9caf2cff8, type: 2}
