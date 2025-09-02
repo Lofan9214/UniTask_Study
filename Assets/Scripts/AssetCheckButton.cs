@@ -22,9 +22,10 @@ public class AssetCheckButton : MonoBehaviour
     private async UniTaskVoid CheckMusicDownload()
     {
         var assetSize = await Addressables.GetDownloadSizeAsync("music");
-        if (assetSize > 0)
+        var assetSize2 = await Addressables.GetDownloadSizeAsync("musicAll");
+        if (assetSize > 0 || assetSize2 > 0)
         {
-            downloadPanel.ShowDownloadPanel(assetSize);
+            downloadPanel.ShowDownloadPanel(assetSize, assetSize2);
         }
         else
         {

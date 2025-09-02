@@ -22,24 +22,28 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - music
+    - musicAll
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 54dceffe9cf313b40bda72c3858463dc
     m_Address: Assets/Musics/echoofsadness.mp3
     m_ReadOnly: 0
     m_SerializedLabels:
     - music
+    - musicAll
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 874fc7bb1744d59448a4a5efb3a815ff
     m_Address: Assets/Musics/slowlife.mp3
     m_ReadOnly: 0
     m_SerializedLabels:
     - music
+    - musicAll
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 8b175050319c3ad49a12f0cea080a5af
     m_Address: Assets/Musics/moonlightdrive.mp3
     m_ReadOnly: 0
     m_SerializedLabels:
     - music
+    - musicAll
     FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 06b1fb63c537cd14a8d23420dd54b822, type: 2}

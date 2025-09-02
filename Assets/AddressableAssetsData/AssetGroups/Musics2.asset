@@ -21,7 +21,7 @@ MonoBehaviour:
     m_Address: Assets/Musics/yesterday.mp3
     m_ReadOnly: 0
     m_SerializedLabels:
-    - music
+    - musicAll
     FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 06b1fb63c537cd14a8d23420dd54b822, type: 2}

@@ -12,6 +12,8 @@ public class AssetDownloadPanel : MonoBehaviour
 {
     [SerializeField]
     private TextMeshProUGUI downloadText;
+    [SerializeField]
+    private TextMeshProUGUI downloadText2;
 
     [SerializeField]
     private Slider downloadProgress;
@@ -23,12 +25,15 @@ public class AssetDownloadPanel : MonoBehaviour
     private Button closeButton;
 
     private long downloadSize;
+    private long downloadAllSize;
 
-    public void ShowDownloadPanel(long size)
+    public void ShowDownloadPanel(long musicSize, long musicAllSize)
     {
         gameObject.SetActive(true);
-        downloadSize = size;
-        downloadText.text = size.ToString();
+        downloadSize = musicSize;
+        downloadAllSize = musicAllSize;
+        downloadText.text = musicSize.ToString();
+        downloadText2.text = musicAllSize.ToString();
     }
 
     public void OnClickDownloadButton()
