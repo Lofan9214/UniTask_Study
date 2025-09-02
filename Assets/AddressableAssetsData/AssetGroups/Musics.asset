@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Musics
+  m_EditorClassIdentifier: 
+  m_GroupName: Musics
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 84ea202f2efffc84cb663da097dc1325
+  m_SerializeEntries:
+  - m_GUID: 0aa8958ee7c29214cb2c0b1b48338862
+    m_Address: Assets/Musics/sleepless.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - music
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 54dceffe9cf313b40bda72c3858463dc
+    m_Address: Assets/Musics/echoofsadness.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - music
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 874fc7bb1744d59448a4a5efb3a815ff
+    m_Address: Assets/Musics/slowlife.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - music
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8b175050319c3ad49a12f0cea080a5af
+    m_Address: Assets/Musics/moonlightdrive.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - music
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 06b1fb63c537cd14a8d23420dd54b822, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 88f709c390dd4e647893d97e3ff34998, type: 2}
+    - {fileID: 11400000, guid: cfc5645ab751806458cd880413bc87cd, type: 2}

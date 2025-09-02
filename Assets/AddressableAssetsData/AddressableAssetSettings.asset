@@ -15,14 +15,14 @@ MonoBehaviour:
   m_DefaultGroup: 6aeab5fdbf2e63846963c323af5454a7
   m_currentHash:
     serializedVersion: 2
-    Hash: 8f1d3c9a33c8671840d0b2be641044ec
+    Hash: 569ef9fffee57876ae69fa8a70c54dc7
   m_OptimizeCatalogSize: 0
   m_BuildRemoteCatalog: 1
   m_BundleLocalCatalog: 0
   m_CatalogRequestsTimeout: 0
   m_DisableCatalogUpdateOnStart: 0
   m_IgnoreUnsupportedFilesInBuild: 0
-  m_UniqueBundleIds: 0
+  m_UniqueBundleIds: 1
   m_NonRecursiveBuilding: 1
   m_CCDEnabled: 0
   m_maxConcurrentWebRequests: 3
@@ -46,6 +46,9 @@ MonoBehaviour:
   m_GroupAssets:
   - {fileID: 11400000, guid: 402de9bb077043a4abec4afe2ea8ccc4, type: 2}
   - {fileID: 11400000, guid: c6f5106e2b58f484f8a798cff8904dab, type: 2}
+  - {fileID: 11400000, guid: e9b5e0441903f21419ff302137e1c5ee, type: 2}
+  - {fileID: 11400000, guid: cc54c2d48cb2ac0499f9f0ccb8b7c8db, type: 2}
+  - {fileID: 11400000, guid: 2734ac40a5599d24890242ec3dee8492, type: 2}
   m_BuildSettings:
     m_CompileScriptsInVirtualMode: 0
     m_CleanupStreamingAssetsAfterBuilds: 1
@@ -101,6 +104,8 @@ MonoBehaviour:
   m_LabelTable:
     m_LabelNames:
     - default
+    - music
+    - music2
   m_SchemaTemplates: []
   m_GroupTemplateObjects:
   - {fileID: 11400000, guid: 55fb0f967252e3a41bc4d540295aea9e, type: 2}
